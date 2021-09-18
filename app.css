@@ -94,8 +94,8 @@ html {
 }
 
 .pricing-features {
-    margin: 50px 0 25px;
     color: #016ff9;
+    margin: 50px 0 2px;
 }
 
 .pricing-features-item {
@@ -107,9 +107,9 @@ html {
     border-top: 1px solid #e1f1ff;
 }
 
-.pricing-features-item:last-child {
+/* .pricing-features-item:last-child {
     border-bottom: 1px solid #e1f1ff;
-}
+} */
 
 .pricing-price {
     color: #016ff9;
@@ -143,3 +143,17 @@ html {
     color: white;
 }
 
+/* responsive styling for computer screen sizes */
+@media (min-width: 900px){
+    .panel {
+        flex-direction: row;
+    }
+    .pricing-plan {
+        border-bottom: none;
+        border-right: 1px solid #e1f1ff;
+        padding: 25px 50px;
+    }
+    .pricing-plan:last-child {
+        border-right: none;
+    }
+}
