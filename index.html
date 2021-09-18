@@ -5,40 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pricing Panel</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700">
     <link rel="stylesheet" href="app.css">
 </head>
 <body>
-    <div>
-        <img src="/icons/icon1.png" alt="one person">
-        <h2>Personal</h2>
-        <ul>
-            <li>Custom Domains</li>
-            <li>Sleeps after 30 min of inactivity</li>
+    <div class="panel pricing-table">
+    <div class="pricing-plan">
+        <img src="/icons/icon1.png" alt="one person" class="pricing-img">
+        <h2 class="pricing-header">Personal</h2>
+        <ul class="pricing-features">
+            <li class="pricing-features-item">Custom Domains</li>
+            <li class="pricing-features-item">Sleeps after 30 min of inactivity</li>
         </ul>
-        <span>Free</span>
-        <a href="#">Sign Up</a>
+        <span class="pricing-price">Free</span>
+        <a href="#/" class="pricing-button">Sign Up</a>
     </div>
 
-    <div>
-        <img src="/icons/icon2.png" alt="small group">
-        <h2>Small Team</h2>
-        <ul>
-            <li>Never sleeps</li>
-            <li>Multiple workers for more powerful apps</li>
-            <span>$150</span>
-            <a href="#">Free trial</a>
+    <div class="pricing-plan">
+        <img src="/icons/icon2.png" alt="small group" class="pricing-img">
+        <h2 class="pricing-header">Small Team</h2>
+        <ul class="pricing-features">
+            <li class="pricing-features-item">Never sleeps</li>
+            <li class="pricing-features-item">Multiple workers for more powerful apps</li>
+            <span class="pricing-price">$150</span>
+            <a href="#/" class="pricing-button is-featured">Free trial</a>
         </ul>
     </div>
 
-    <div>
-        <img src="/icons/icon3.png" alt="large group">
-        <h2>Enterprise</h2>
-        <ul>
-            <li>Dedicated</li>
-            <li>Simple horizontal scalability</li>
+    <div class="pricing-plan">
+        <img src="/icons/icon3.png" alt="large group" class="pricing-img">
+        <h2 class="pricing-header">Enterprise</h2>
+        <ul class="pricing-features">
+            <li class="pricing-features-item">Dedicated</li>
+            <li class="pricing-features-item">Simple horizontal scalability</li>
         </ul>
-        <span>$400</span>
-        <a href="#">Free trial</a>
+        <span class="pricing-price">$400</span>
+        <a href="#/" class="pricing-button">Free trial</a>
     </div>
+</div>
 </body>
 </html>
